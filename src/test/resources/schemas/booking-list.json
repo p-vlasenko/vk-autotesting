@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Booking ids (GET /booking)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["bookingid"],
+    "properties": {
+      "bookingid": { "type": "integer" }
+    }
+  }
+}
