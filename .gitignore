@@ -1,0 +1,17 @@
+.agents
+local
+.claude/
+
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local secrets
+.env
+*.local.properties
